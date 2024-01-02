@@ -1,0 +1,146 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+/* header part start */
+header{
+    width: 100%;
+    background-color: rgb(192, 171, 171);
+    display: flex;
+    
+    }
+.logo{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    font-weight: 800;
+    text-shadow: 10px 10px 10px;
+    margin-left: 50px;
+    padding: 10px;
+}
+
+.nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 100px;
+}
+
+.nav ul{
+    list-style: none;
+    
+   
+}
+
+.nav ul li{
+    background-color: aquamarine;
+    width: 100px;
+    border: 1px solid #fff;
+    height: auto;
+    text-align: center;
+    float: left;
+    color: #fff;
+    padding: 10px;
+    transition: all ease-in .5s;
+    border-radius: 5px;
+    margin: 2px;
+    
+      
+}
+
+.nav ul li a{
+    text-decoration: none;
+    
+    
+    
+}
+
+.nav ul li:hover{
+    background-color: crimson;
+    position: relative;
+    
+    
+    
+    
+}
+
+.nav ul ul {
+    display: none;
+}
+.nav ul li:hover> ul{
+    display: block;
+    position: absolute;
+
+}
+
+/* Header part End */
+
+/* footer start */
+
+footer{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    background-color: rgb(192, 171, 171);
+}
+
+.name{
+    
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: larger;
+        font-weight: 800;
+        text-shadow: 3px 3px 5px;
+        text-align: center;
+        margin: 0 auto;
+}
+
+.text p{
+    width: 50%;
+    text-align: justify;
+    margin: 0 auto;
+    color:rgb(58, 3, 10);
+    top: -30px;
+}
+
+.icon{
+    font-size: 30px;
+    text-align: center;
+    padding:10px ;
+    color: #c51818;
+}
+
+.copy{
+    width: 100%;
+    text-align: center;
+    background-color: black;
+    color: #fff;
+    line-height: 30px;
+}
+/* footer End */
+
+.form{
+    width: fit-content;
+    height: fit-content;
+    background-color: rgb(247, 13, 122);
+    color: white;
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px 80px;
+    margin-top: 30px;
+    border-radius: 8px;
+    font-size: 20px;
+          
+}
+
+.form input{
+    padding: 5px 10px;
+    border-radius: 50px;
+    border-color: yellowgreen;
+    
+}
+.form .aa{
+    font-weight: bold;
+    padding: 5px 30px;
+}
+
